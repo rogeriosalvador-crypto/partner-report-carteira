@@ -1,0 +1,27 @@
+{
+  "data_referencia": "29/05/2026",
+  "data_atualizacao": "29/05/2026 10:00",
+  "periodos": {
+    "NAGUMO": {
+      "D-1": {
+        "gmv": 250000,
+        "meta_gmv": 240000,
+        "ating_pct": 104.2,
+        "pedidos": 1900,
+        "aov": 131.58,
+        "cap_fat": 92,
+        "cancel_pct": 6,
+        "ruptura_pct": 0.1,
+        "er_pct": 7.2,
+        "inv_merchant": 0,
+        "pct_inv_merchant": 0,
+        "nps": 80
+      }
+    }
+  },
+  "lojas": {
+    "NAGUMO": [],
+    "FESTVAL": [],
+    "JACOMAR": []
+  }
+}

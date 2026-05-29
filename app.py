@@ -548,6 +548,18 @@ def dashboard(grupo):
         periodos_order=PERIODOS_ORDER,
     )
 
+@app.route('/atualizar', methods=['POST'])
+def atualizar():
+    try:
+        novo = request.get_json(force=True)
+        if not novo:
+            return jsonify({"error":"JSON inválido"}), 400
+        DATA_FILE.parent.mkdir(exist_ok=True)
+        DATA_FILE.write_text(json.dumps(novo, ensure_ascii=False, indent=2), encoding='utf-8')
+        return jsonify({"ok": True})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 @app.route('/download/excel/<grupo>')
 @login_required
 def download_excel(grupo):

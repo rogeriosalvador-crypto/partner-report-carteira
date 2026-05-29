@@ -170,6 +170,10 @@ DASHBOARD_HTML = """<!DOCTYPE html>
     .badge.verde{background:var(--green);color:#fff}
     .badge.amarelo{background:var(--yellow);color:#fff}
     .badge.vermelho{background:var(--alert);color:#fff}
+    .ating-badge{display:inline-block;padding:2px 7px;border-radius:5px;font-weight:700;font-size:12px}
+    .ating-badge.verde{background:var(--green);color:#fff}
+    .ating-badge.amarelo{background:var(--yellow);color:#fff}
+    .ating-badge.vermelho{background:var(--alert);color:#fff}
 
     .section{background:var(--card);border:1px solid var(--border);
              border-radius:12px;margin:0 20px 20px;padding:18px}
@@ -325,40 +329,68 @@ function renderKPICards(kpi) {
 }
 
 // ── Tabela de lojas — usa LOJAS_DICT[periodo] ─────────────────────────────────
-function renderTabelaLojas(lojas) {
-  const thead = document.getElementById('storesThead');
-  const tbody = document.getElementById('storesTbody');
-  if (!lojas || !lojas.length) {
-    thead.innerHTML='';
-    tbody.innerHTML='<tr><td colspan="6" style="color:#B0BEC5;text-align:center;padding:20px">Sem dados para este período</td></tr>';
+const PERIODO_REF = {
+  'D-1':'D-7', 'D-7':'D-15', 'D-15':'D-21',
+  'D-21':'MTD', 'MTD':null, 'CONSOLIDADO':'MTD'
+};
+
+function calcAtingDinamico(loja, periodo) {
+  const ref = PERIODO_REF[periodo];
+  if (!ref) return parseFloat(loja.ating_pct_meta) || 0;
+  const lojas_ref = LOJAS_DICT[ref] || [];
+  const loja_ref = lojas_ref.find(l => l.nome === loja.nome);
+  if (!loja_ref || !loja_ref.gmv) return 0;
+  return Math.round(loja.gmv / loja_ref.gmv * 1000) / 10;
+}
+
+function renderTabelaLojas(lojas, periodo) {
+  const tbody = document.getElementById("storesTbody");
+  const thead = document.getElementById("storesThead");
+  if (!tbody) return;
+  if (!lojas || lojas.length === 0) {
+    if (thead) thead.innerHTML = "";
+    tbody.innerHTML = "<tr><td colspan='11' style='text-align:center;color:#666;padding:20px'>Sem dados para este período</td></tr>";
     return;
   }
-  thead.innerHTML=`<tr>
+  if (thead) thead.innerHTML = `<tr>
     <th>Loja</th>
     <th style="text-align:right">GMV</th>
     <th style="text-align:right">Pedidos</th>
+    <th style="text-align:right">Ating%</th>
     <th style="text-align:right">Cancel%</th>
     <th style="text-align:right">Ruptura%</th>
-    <th style="text-align:right">NPS</th>
+    <th style="text-align:right">SLA Sep%</th>
+    <th style="text-align:right">Online%</th>
+    <th style="text-align:right">GMV Rupt</th>
+    <th style="text-align:right">GMV Recup</th>
+    <th style="text-align:right">NSU%</th>
   </tr>`;
   tbody.innerHTML = lojas.map(l => {
-    const ating = l.ating_pct||0;
-    const sem = semCls(ating);
-    const cCls = l.cancel_pct>7?'val-neg':l.cancel_pct>5?'val-warn':'';
-    const rCls = l.ruptura_pct>3?'val-neg':l.ruptura_pct>1?'val-warn':'';
-    const nCls = l.nps!=null?(l.nps>=70?'val-pos':l.nps>=50?'val-warn':'val-neg'):'';
+    const ating = calcAtingDinamico(l, periodo);
+    const atBadge = ating >= 100 ? "ating-badge verde" : ating >= 85 ? "ating-badge amarelo" : "ating-badge vermelho";
+    const fmt1 = v => v != null ? v.toFixed(1)+'%' : '—';
+    const fmtR = v => v ? fmtBRL(v) : '—';
+    const slaCls = (l.sla_sep_pct||0)>=85?"val-pos":(l.sla_sep_pct||0)>=70?"val-warn":"val-neg";
+    const onlineCls = (l.online_pct||0)>=95?"val-pos":(l.online_pct||0)>=80?"val-warn":"val-neg";
+    const cancelCls = (l.cancel_pct||0)>5?"val-neg":"";
+    const ruptCls = (l.ruptura_pct||0)>1?"val-neg":"";
+    const nsuCls = (l.nsu_pct||0)<=2?"val-pos":(l.nsu_pct||0)<=5?"val-warn":"val-neg";
     return `<tr>
-      <td><span class="sem ${sem}"></span>${l.nome}</td>
+      <td><strong>${l.nome}</strong></td>
       <td style="text-align:right">${fmtBRL(l.gmv)}</td>
-      <td style="text-align:right">${fmtNum(l.pedidos)}</td>
-      <td style="text-align:right" class="${cCls}">${l.cancel_pct!=null?fmtPct(l.cancel_pct):'—'}</td>
-      <td style="text-align:right" class="${rCls}">${l.ruptura_pct!=null?fmtPct(l.ruptura_pct):'—'}</td>
-      <td style="text-align:right" class="${nCls}">${l.nps!=null?Number(l.nps).toLocaleString('pt-BR',{minimumFractionDigits:1}):'—'}</td>
+      <td style="text-align:right">${l.pedidos||0}</td>
+      <td style="text-align:right"><span class="${atBadge}">${ating.toFixed(1)}%</span></td>
+      <td style="text-align:right" class="${cancelCls}">${fmt1(l.cancel_pct)}</td>
+      <td style="text-align:right" class="${ruptCls}">${fmt1(l.ruptura_pct)}</td>
+      <td style="text-align:right" class="${slaCls}">${fmt1(l.sla_sep_pct)}</td>
+      <td style="text-align:right" class="${onlineCls}">${fmt1(l.online_pct)}</td>
+      <td style="text-align:right">${fmtR(l.gmv_rupturado)}</td>
+      <td style="text-align:right">${fmtR(l.gmv_recuperado)}</td>
+      <td style="text-align:right" class="${nsuCls}">${fmt1(l.nsu_pct)}</td>
     </tr>`;
-  }).join('');
+  }).join("");
 }
 
-// ── Top lojas chart ───────────────────────────────────────────────────────────
 function renderChartTopLojas(lojas) {
   const el = document.getElementById('chartTop');
   if (!lojas || !lojas.length) {
@@ -405,7 +437,7 @@ function setPeriodo(p) {
   const label = PERIOD_LABELS[p]||p;
   renderPeriodBar();
   renderKPICards(TODOS_PERIODOS[p]||{});
-  renderTabelaLojas(LOJAS_DICT[p]||[]);        // ← dados do período p (distintos!)
+  renderTabelaLojas(LOJAS_DICT[p]||[], p);        // ← dados do período p (distintos!)
   renderChartTopLojas(LOJAS_DICT[p]||[]);
   renderChartGmv();
   document.getElementById('tableLabel').textContent = label;

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard — {{ grupo }}</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0F0F1A;color:#e0e0e0;font-family:system-ui,sans-serif;padding:16px}
+h1{color:#EA1D2C;font-size:1.5rem;margin-bottom:4px}
+.sub{color:#777;font-size:.85rem;margin-bottom:20px}
+.section-title{color:#aaa;font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;margin:24px 0 12px;border-bottom:1px solid #222;padding-bottom:6px}
+.cards{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:8px}
+.card{background:#1A1A2E;border-radius:10px;padding:16px 20px;flex:1;min-width:130px}
+.card-title{font-size:.75rem;color:#888;margin-bottom:8px;text-transform:uppercase}
+.card-value{font-size:1.3rem;font-weight:700;color:#fff}
+.badge{font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:10px;display:inline-block;margin-top:6px}
+.badge.verde{background:#1a3a1a;color:#4caf50}
+.badge.amarelo{background:#3a3000;color:#ffc107}
+.badge.vermelho{background:#3a0000;color:#f44336}
+.table-wrap{overflow-x:auto;border-radius:8px;background:#1A1A2E;margin-bottom:20px}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{background:#12122a;color:#aaa;padding:8px 10px;text-align:left;font-weight:600;white-space:nowrap}
+td{padding:7px 10px;border-bottom:1px solid #22223a;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#20203a}
+.sem-verde{color:#4caf50;font-weight:600}
+.sem-amarelo{color:#ffc107;font-weight:600}
+.sem-vermelho{color:#f44336;font-weight:600}
+.period-selector{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.period-btn{padding:6px 14px;border-radius:20px;border:1px solid #333;background:#1A1A2E;color:#aaa;cursor:pointer;font-size:.8rem}
+.period-btn.active{background:#EA1D2C;border-color:#EA1D2C;color:#fff;font-weight:700}
+.kpi-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.kpi-item{background:#1A1A2E;border-radius:8px;padding:12px 18px;flex:1;min-width:150px}
+.kpi-label{font-size:.72rem;color:#777;text-transform:uppercase}
+.kpi-val{font-size:1.1rem;font-weight:700;color:#fff;margin-top:4px}
+.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.btn{background:#EA1D2C;color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:.85rem;font-weight:700;border:none;cursor:pointer;display:inline-block}
+.btn-ghost{background:transparent;border:1px solid #333;color:#aaa}
+.grupo-badge{background:#EA1D2C;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:12px}
+@media(max-width:600px){.card{min-width:140px}body{padding:10px}}
+</style></head>
+<body>
+<div class="nav">
+  <div>
+    <span class="grupo-badge">{{ grupo }}</span>
+    <h1 style="display:inline;margin-left:10px">Portal do Parceiro</h1>
+  </div>
+  <div>
+    <a href="/download/excel/{{ grupo|lower }}" class="btn" style="margin-right:8px">⬇ Excel</a>
+    <a href="/logout" class="btn btn-ghost">Sair</a>
+  </div>
+</div>
+<div class="sub">Ref: {{ data_referencia }} | Atualizado: {{ data_atualizacao }}</div>
+
+<div class="section-title">KPIs D-1</div>
+<div class="cards">
+  {% for c in kpi_cards %}
+  <div class="card">
+    <div class="card-title">{{ c.titulo }}</div>
+    <div class="card-value">{{ c.valor }}</div>
+    {% if c.badge %}<span class="badge {{ c.cor }}">{{ c.badge }}</span>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="section-title">Comparativo de Períodos</div>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Indicador</th><th>D-1</th><th>D-7</th><th>D-15</th><th>D-21</th></tr></thead>
+<tbody>
+{% for row in comp_rows %}
+<tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+<div class="section-title">Lojas por Período</div>
+<div class="period-selector">
+  <button class="period-btn active" onclick="setPeriod('D-1',this)">D-1</button>
+  <button class="period-btn" onclick="setPeriod('D-7',this)">D-7</button>
+  <button class="period-btn" onclick="setPeriod('D-15',this)">D-15</button>
+  <button class="period-btn" onclick="setPeriod('D-21',this)">D-21</button>
+  <button class="period-btn" onclick="setPeriod('MTD',this)">MTD</button>
+  <button class="period-btn" onclick="setPeriod('CONSOLIDADO',this)">Consolidado</button>
+</div>
+<div class="table-wrap">
+<table>
+<thead><tr>
+  <th>Loja</th><th>GMV</th><th>Pedidos</th><th>Ating%</th><th>AOV</th>
+  <th>Cancel%</th><th>Ruptura%</th><th>ER%</th><th>NPS</th>
+  <th>SLA%</th><th>Online%</th><th>GMV Rupt</th><th>GMV Recup</th><th>NSU%</th>
+</tr></thead>
+<tbody id="loja-tbody"></tbody>
+</table>
+</div>
+
+<div class="section-title">MTD</div>
+<div class="kpi-row">
+  {% for k in mtd_kpis %}
+  <div class="kpi-item"><div class="kpi-label">{{ k.label }}</div><div class="kpi-val">{{ k.val }}</div></div>
+  {% endfor %}
+</div>
+
+<div class="section-title">Consolidado Mensal</div>
+<div class="kpi-row">
+  {% for k in cons_kpis %}
+  <div class="kpi-item"><div class="kpi-label">{{ k.label }}</div><div class="kpi-val">{{ k.val }}</div></div>
+  {% endfor %}
+</div>
+
+<script>
+const LOJA_DATA = {{ loja_data_json|safe }};
+function setPeriod(per, btn) {
+  document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const rows = LOJA_DATA[per] || '';
+  document.getElementById('loja-tbody').innerHTML = rows || '<tr><td colspan="14" style="text-align:center;color:#555;padding:20px">Sem dados</td></tr>';
+}
+setPeriod('D-1', document.querySelector('.period-btn'));
+</script>
+</body></html>

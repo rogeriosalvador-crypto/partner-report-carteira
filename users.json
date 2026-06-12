@@ -1,0 +1,20 @@
+{
+  "NAGUMO": [
+    {"usuario": "nagumo", "senha": "nagumo@2024"},
+    {"usuario": "henrique", "senha": "henrique"},
+    {"usuario": "william", "senha": "william"},
+    {"usuario": "robert", "senha": "robert"},
+    {"usuario": "guilherme", "senha": "guilherme"}
+  ],
+  "FESTVAL": [
+    {"usuario": "festval", "senha": "festval@2024"},
+    {"usuario": "anapaula", "senha": "anapaula"},
+    {"usuario": "vinicius", "senha": "vinicius"},
+    {"usuario": "vitoria", "senha": "vitoria"}
+  ],
+  "JACOMAR": [
+    {"usuario": "jacomar", "senha": "jacomar@2024"},
+    {"usuario": "cristina", "senha": "cristina"},
+    {"usuario": "caio", "senha": "caio"}
+  ]
+}

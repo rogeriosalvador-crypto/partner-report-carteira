@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login — {{ grupo }}</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0F0F1A;color:#fff;font-family:system-ui,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center}
+.card{background:#1A1A2E;border-radius:12px;padding:40px;width:100%;max-width:360px;box-shadow:0 4px 24px rgba(0,0,0,.4)}
+h1{color:#EA1D2C;font-size:1.4rem;margin-bottom:24px;text-align:center}
+.grupo{background:#EA1D2C;color:#fff;font-size:.75rem;font-weight:700;padding:4px 10px;border-radius:12px;display:inline-block;margin-bottom:20px}
+label{font-size:.85rem;color:#aaa;display:block;margin-bottom:6px}
+input{width:100%;padding:10px 12px;border-radius:8px;border:1px solid #333;background:#0F0F1A;color:#fff;font-size:1rem;margin-bottom:16px}
+input:focus{outline:none;border-color:#EA1D2C}
+button{width:100%;padding:12px;background:#EA1D2C;color:#fff;border:none;border-radius:8px;font-size:1rem;font-weight:700;cursor:pointer}
+button:hover{background:#c8001e}
+.error{background:#3a0000;color:#ff6b6b;padding:10px 12px;border-radius:8px;margin-bottom:16px;font-size:.9rem;border-left:3px solid #EA1D2C}
+</style></head>
+<body>
+<div class="card">
+  <div style="text-align:center"><span class="grupo">{{ grupo }}</span></div>
+  <h1>📊 Portal do Parceiro</h1>
+  {% if error %}<div class="error">{{ error }}</div>{% endif %}
+  <form method="POST" action="/login">
+    <input type="hidden" name="grupo" value="{{ grupo }}">
+    <label>Usuário</label>
+    <input name="usuario" autocomplete="username" autofocus>
+    <label>Senha</label>
+    <input type="password" name="senha" autocomplete="current-password">
+    <button type="submit">Entrar</button>
+  </form>
+</div>
+</body></html>

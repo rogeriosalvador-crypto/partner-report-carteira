@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "data_referencia": "17/06/2026",
-  "data_atualizacao": "18/06/2026 19:11",
+  "data_atualizacao": "18/06/2026 19:54",
   "grupos": {
     "NAGUMO": {
       "D-1": {
@@ -87,14 +87,12 @@
         "online_pct": 12.67,
         "gmv_rupt": 169738.14,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0,
-        "gmv_prior": 4053456.88,
-        "gmv_var_pct": 19.34
+        "nsu_pct": 0.0
       },
       "CONSOLIDADO": {
         "gmv": 4837375.45,
-        "meta_gmv": 6357185.28,
-        "ating_pct": 76.09,
+        "meta_gmv": 3602404.99,
+        "ating_pct": 134.28,
         "pedidos": 36005,
         "aov": 134.35,
         "cap_fat": 49.84,
@@ -106,9 +104,7 @@
         "online_pct": 12.67,
         "gmv_rupt": 169738.14,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0,
-        "gmv_prior": 4053456.88,
-        "gmv_var_pct": 19.34
+        "nsu_pct": 0.0
       }
     },
     "FESTVAL": {
@@ -195,14 +191,12 @@
         "online_pct": 10.21,
         "gmv_rupt": 76488.82,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0,
-        "gmv_prior": 1211698.63,
-        "gmv_var_pct": 7.75
+        "nsu_pct": 0.0
       },
       "CONSOLIDADO": {
         "gmv": 1305663.62,
-        "meta_gmv": 2137252.66,
-        "ating_pct": 61.09,
+        "meta_gmv": 1211109.84,
+        "ating_pct": 107.81,
         "pedidos": 8076,
         "aov": 161.67,
         "cap_fat": 83.22,
@@ -214,9 +208,7 @@
         "online_pct": 10.21,
         "gmv_rupt": 76488.82,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0,
-        "gmv_prior": 1211698.63,
-        "gmv_var_pct": 7.75
+        "nsu_pct": 0.0
       }
     },
     "JACOMAR": {
@@ -303,14 +295,12 @@
         "online_pct": 10.62,
         "gmv_rupt": 27395.69,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0,
-        "gmv_prior": 625814.2,
-        "gmv_var_pct": 34.43
+        "nsu_pct": 0.0
       },
       "CONSOLIDADO": {
         "gmv": 841307.87,
-        "meta_gmv": 1405560.56,
-        "ating_pct": 59.86,
+        "meta_gmv": 796484.32,
+        "ating_pct": 105.63,
         "pedidos": 6762,
         "aov": 124.42,
         "cap_fat": 88.24,
@@ -322,9 +312,7 @@
         "online_pct": 10.62,
         "gmv_rupt": 27395.69,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0,
-        "gmv_prior": 625814.2,
-        "gmv_var_pct": 34.43
+        "nsu_pct": 0.0
       }
     }
   },
@@ -332,6 +320,7 @@
     "NAGUMO": {
       "D-1": [
         {
+          "nome": "NAGUMO EXPRESS - BARREIRA GRANDE",
           "merchant_id": "739a762f-f0af-457d-add3-fd17e647e568",
           "gmv": 18879.48,
           "meta_gmv": 12861.56,
@@ -347,10 +336,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 438.75,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - BARREIRA GRANDE"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - VILA DIVA",
           "merchant_id": "d2a45a7b-10e5-47b8-af4b-f184645a0bae",
           "gmv": 14465.51,
           "meta_gmv": 8312.84,
@@ -366,10 +355,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 463.46,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - VILA DIVA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - PIRES DO RIO",
           "merchant_id": "3e2e0bf4-d1c6-4b2b-bc57-211a71c115d5",
           "gmv": 14018.86,
           "meta_gmv": 13389.12,
@@ -385,10 +374,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 494.2,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - PIRES DO RIO"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - MOGI",
           "merchant_id": "b724875f-078f-4995-af8a-5b2bc97f62de",
           "gmv": 11720.98,
           "meta_gmv": 8546.96,
@@ -404,10 +393,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 181.07,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - MOGI"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - PQ CONTINENTAL GRU",
           "merchant_id": "1877e9f1-17b1-497c-9cd8-fb24c5d13856",
           "gmv": 10996.1,
           "meta_gmv": 7744.8,
@@ -423,10 +412,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 354.39,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - PQ CONTINENTAL GRU"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - MAUA",
           "merchant_id": "18d4725a-41ae-4342-be31-f9a9b6d2716f",
           "gmv": 10589.45,
           "meta_gmv": 9542.96,
@@ -442,10 +431,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 87.31,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - MAUA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - VILA MAZZA",
           "merchant_id": "618b4d08-9394-4789-b525-9e636fd91c08",
           "gmv": 10355.73,
           "meta_gmv": 6528.51,
@@ -461,10 +450,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 199.08,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - VILA MAZZA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - JD CUMBICA",
           "merchant_id": "cd5a1da6-d271-47ec-9b6f-630a21f1199b",
           "gmv": 9511.43,
           "meta_gmv": 7485.2,
@@ -480,10 +469,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 254.29,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - JD CUMBICA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - ANEL VIARIO",
           "merchant_id": "69663d6c-6f44-429e-b037-46ad0666b125",
           "gmv": 9029.88,
           "meta_gmv": 7330.4,
@@ -499,10 +488,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 301.83,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - ANEL VIARIO"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - CALMON VIANA",
           "merchant_id": "74b2f698-cffc-4a38-b8ce-0407f8d98de3",
           "gmv": 8436.54,
           "meta_gmv": 6779.22,
@@ -518,10 +507,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 132.89,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - CALMON VIANA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - S ANDRE CENTRO",
           "merchant_id": "dc49f883-3cd0-41bd-afc6-21e478834f6e",
           "gmv": 8203.39,
           "meta_gmv": 6790.46,
@@ -537,10 +526,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 186.22,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - S ANDRE CENTRO"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - PRAIA GRANDE",
           "merchant_id": "53217c18-d860-48dc-8b9f-a16838d5ed37",
           "gmv": 8072.36,
           "meta_gmv": 5896.24,
@@ -556,10 +545,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 273.11,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - PRAIA GRANDE"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - CAMILOPOLIS",
           "merchant_id": "439b61ad-3074-4b92-9693-47094062d732",
           "gmv": 7915.41,
           "meta_gmv": 6291.11,
@@ -575,10 +564,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 372.72,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - CAMILOPOLIS"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - SOLAR - STO ANDRE",
           "merchant_id": "466335f7-6554-413c-bf91-d3147d439979",
           "gmv": 7387.83,
           "meta_gmv": 7437.56,
@@ -594,10 +583,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 186.03,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - SOLAR - STO ANDRE"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - DONA BENTA",
           "merchant_id": "6631c029-0dd0-4a6c-b9c1-1bef5cfd68f2",
           "gmv": 7348.0,
           "meta_gmv": 5218.95,
@@ -613,10 +602,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 215.07,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - DONA BENTA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - SAO JOSE",
           "merchant_id": "c46e2cc1-9e14-4acd-8525-05e91b44ef13",
           "gmv": 7297.76,
           "meta_gmv": 6126.9,
@@ -632,10 +621,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 180.66,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - SAO JOSE"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - VOLTA REDONDA",
           "merchant_id": "83c0549a-a703-4ec9-80b3-d54c0b8fa3d3",
           "gmv": 7190.6,
           "meta_gmv": 9375.13,
@@ -651,10 +640,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 46.98,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - VOLTA REDONDA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - ATIBAIA",
           "merchant_id": "3c520e7f-a4a7-4d5e-8695-901002c20b0b",
           "gmv": 6918.38,
           "meta_gmv": 6621.2,
@@ -670,10 +659,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 312.83,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - ATIBAIA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - OSASCO",
           "merchant_id": "34c23e7a-0359-4832-9794-e0624e83b350",
           "gmv": 6814.39,
           "meta_gmv": 7275.19,
@@ -689,10 +678,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 288.44,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - OSASCO"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - CURUCA",
           "merchant_id": "b0a0edac-412a-4b28-a693-84325bbcfc91",
           "gmv": 6497.82,
           "meta_gmv": 4349.07,
@@ -708,10 +697,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 227.96,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - CURUCA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - ITAQUA",
           "merchant_id": "a940c673-c17c-4830-9611-65c7201e9942",
           "gmv": 6227.29,
           "meta_gmv": 5295.95,
@@ -727,10 +716,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 123.46,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - ITAQUA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - JD EDMUNDO",
           "merchant_id": "bdfd9044-898a-4fe2-a411-b60329d971b6",
           "gmv": 6154.54,
           "meta_gmv": 4284.08,
@@ -746,10 +735,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 126.13,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - JD EDMUNDO"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - ITAIM PAULISTA",
           "merchant_id": "789bcefa-94cc-4804-9bcd-2e5096528cac",
           "gmv": 6015.06,
           "meta_gmv": 8671.05,
@@ -765,10 +754,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 61.48,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - ITAIM PAULISTA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - VILA ZEFERINA",
           "merchant_id": "25ec23be-1d47-449f-9328-f9e18663dae8",
           "gmv": 5688.82,
           "meta_gmv": 5163.91,
@@ -784,10 +773,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 29.8,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - VILA ZEFERINA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - TAUBATE",
           "merchant_id": "8038f6e0-68f3-4c63-a6b3-a9edd2bc54b9",
           "gmv": 5376.31,
           "meta_gmv": 4571.47,
@@ -803,10 +792,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 28.03,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - TAUBATE"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - PQ PAULISTANO",
           "merchant_id": "7c501536-b6b5-4c16-a4aa-f064e87122fb",
           "gmv": 5012.19,
           "meta_gmv": 6965.61,
@@ -822,10 +811,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 31.22,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - PQ PAULISTANO"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - LORENA",
           "merchant_id": "2235fa05-e27d-4448-b4c6-72dd70c22fcb",
           "gmv": 4761.38,
           "meta_gmv": 2897.02,
@@ -841,10 +830,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 155.05,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - LORENA"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - AIMORE",
           "merchant_id": "b5adedd9-c7c8-43c2-946c-c1d51d402fbe",
           "gmv": 4524.61,
           "meta_gmv": 2872.19,
@@ -860,10 +849,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 144.14,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - AIMORE"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - TIBURCIO 2",
           "merchant_id": "34551a0e-cb1c-4e89-b267-eb592c626851",
           "gmv": 3962.91,
           "meta_gmv": 3509.18,
@@ -879,10 +868,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 101.4,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - TIBURCIO 2"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - KEMEL",
           "merchant_id": "725d097a-4dfb-43a6-acaf-568b1cbc23b2",
           "gmv": 3808.12,
           "meta_gmv": 3410.05,
@@ -898,10 +887,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 184.73,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - KEMEL"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - BONSUCESSO",
           "merchant_id": "dece5509-c600-4825-934c-8c30c5d716a8",
           "gmv": 3467.72,
           "meta_gmv": 5171.35,
@@ -917,10 +906,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 69.16,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - BONSUCESSO"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - ERMELINO MATARAZZO",
           "merchant_id": "f0c74251-95d8-4de5-8003-c92841407625",
           "gmv": 3373.2,
           "meta_gmv": 3620.96,
@@ -936,10 +925,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 62.97,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - ERMELINO MATARAZZO"
+          "nsu_pct": 9.08
         },
         {
+          "nome": "NAGUMO EXPRESS - PRAIA GRANDE OCIAN",
           "merchant_id": "817584e3-95e3-411d-9ae3-315671550886",
           "gmv": 2937.75,
           "meta_gmv": 1764.68,
@@ -955,8 +944,7 @@
           "online_pct": 0.0,
           "gmv_rupt": 158.69,
           "gmv_recup": 0.0,
-          "nsu_pct": 9.08,
-          "loja": "NAGUMO EXPRESS - PRAIA GRANDE OCIAN"
+          "nsu_pct": 9.08
         }
       ],
       "D-7": [],
@@ -967,6 +955,7 @@
     "FESTVAL": {
       "D-1": [
         {
+          "nome": "FESTVAL - REPUBLICA ARGENTINA",
           "merchant_id": "40d78fcb-befe-482a-b5ba-6b2bd07309c3",
           "gmv": 28828.46,
           "meta_gmv": 23061.66,
@@ -982,10 +971,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 1328.09,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - REPUBLICA ARGENTINA"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - SAO LOURENCO",
           "merchant_id": "59f53f5f-c197-4781-9944-124e213852ab",
           "gmv": 14468.58,
           "meta_gmv": 7977.84,
@@ -1001,10 +990,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 844.62,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - SAO LOURENCO"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL CASCAVEL - CENTRO",
           "merchant_id": "9b65655c-27e6-469c-84a8-4a7a541ce0fb",
           "gmv": 8290.78,
           "meta_gmv": 7029.62,
@@ -1020,10 +1009,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 245.01,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL CASCAVEL - CENTRO"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - PARQUE TINGUI",
           "merchant_id": "904c8189-4c28-4c2d-9f39-aac70bac166b",
           "gmv": 7124.99,
           "meta_gmv": 7584.03,
@@ -1039,10 +1028,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 305.85,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - PARQUE TINGUI"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - AV BRASIL",
           "merchant_id": "04814baa-8f66-40ed-931f-47fb102e2b89",
           "gmv": 5848.66,
           "meta_gmv": 5362.44,
@@ -1058,10 +1047,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 160.68,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - AV BRASIL"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - PINHAIS",
           "merchant_id": "e366cd38-552a-4309-905c-8a1309162363",
           "gmv": 4778.99,
           "meta_gmv": 3250.54,
@@ -1077,10 +1066,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 310.05,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - PINHAIS"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - SAO JOSEDOSPINHAIS",
           "merchant_id": "e743745e-bf27-4a6f-b9f0-a75636b2b560",
           "gmv": 4050.98,
           "meta_gmv": 7386.83,
@@ -1096,10 +1085,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 107.71,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - SAO JOSEDOSPINHAIS"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - TANCREDO NEVES",
           "merchant_id": "d56b905c-31d7-4a18-b646-148d79573b45",
           "gmv": 1857.7,
           "meta_gmv": 4609.26,
@@ -1115,10 +1104,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 506.52,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - TANCREDO NEVES"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - FACULDADE",
           "merchant_id": "ebbe2b28-6cc3-49e9-b5d6-e760bb97a6af",
           "gmv": 1739.74,
           "meta_gmv": 2823.5,
@@ -1134,10 +1123,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 136.46,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - FACULDADE"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL CARLOS GOMES",
           "merchant_id": "e0374146-b8ad-4573-a8eb-09275923855d",
           "gmv": 1567.47,
           "meta_gmv": 2223.57,
@@ -1153,10 +1142,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 0.51,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL CARLOS GOMES"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - CARLOS DE CARVALHO",
           "merchant_id": "30112328-ace0-4427-bcba-5cba9bf0a122",
           "gmv": 0.0,
           "meta_gmv": 0.0,
@@ -1172,10 +1161,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 0.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - CARLOS DE CARVALHO"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - TORRES",
           "merchant_id": "268daccf-5b65-4270-a577-e38334dd0ff2",
           "gmv": 0.0,
           "meta_gmv": 0.0,
@@ -1191,10 +1180,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 0.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - TORRES"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - SANTA FELICIDADE",
           "merchant_id": "eb96a90f-637f-489a-91ae-2e3703ca1b2e",
           "gmv": 0.0,
           "meta_gmv": 0.0,
@@ -1210,10 +1199,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 0.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - SANTA FELICIDADE"
+          "nsu_pct": 6.52
         },
         {
+          "nome": "FESTVAL - BATEL",
           "merchant_id": "0c5ceabe-01fd-4a8c-981b-db4765f7b573",
           "gmv": 0.0,
           "meta_gmv": 0.0,
@@ -1229,8 +1218,7 @@
           "online_pct": 0.0,
           "gmv_rupt": 0.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 6.52,
-          "loja": "FESTVAL - BATEL"
+          "nsu_pct": 6.52
         }
       ],
       "D-7": [],
@@ -1241,6 +1229,7 @@
     "JACOMAR": {
       "D-1": [
         {
+          "nome": "JACOMAR - MAESTRO",
           "merchant_id": "a4a7d068-bd4c-49d7-af98-7a5bcef2fd09",
           "gmv": 11136.75,
           "meta_gmv": 12121.18,
@@ -1256,10 +1245,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 258.44,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "JACOMAR - MAESTRO"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "SUPERMERCADO JACOMAR - CAPAO RASO",
           "merchant_id": "b582a519-7fb9-4287-98e3-ff1a0d3dd21a",
           "gmv": 10373.35,
           "meta_gmv": 6680.46,
@@ -1275,10 +1264,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 517.98,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "SUPERMERCADO JACOMAR - CAPAO RASO"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "JACOMAR COLONIA RIO GRANDE -",
           "merchant_id": "75faf07b-498d-41b5-855e-693c4048feef",
           "gmv": 8082.21,
           "meta_gmv": 6221.03,
@@ -1294,10 +1283,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 298.05,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "JACOMAR COLONIA RIO GRANDE -"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "JACOMAR BR277",
           "merchant_id": "2119788f-c29a-4f80-8970-ce6a184c3def",
           "gmv": 5887.96,
           "meta_gmv": 5579.41,
@@ -1313,10 +1302,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 246.29,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "JACOMAR BR277"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "SUPERMERCADO JACOMAR - FAZENDA RIO GRANDE",
           "merchant_id": "610dc29f-63fb-4a0c-8c1e-e8ff8247a117",
           "gmv": 5071.09,
           "meta_gmv": 5826.36,
@@ -1332,10 +1321,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 39.97,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "SUPERMERCADO JACOMAR - FAZENDA RIO GRANDE"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "JACOMAR PINHAIS",
           "merchant_id": "d245994e-26b2-4ebc-ad1d-35a5576af9c1",
           "gmv": 4497.67,
           "meta_gmv": 6681.67,
@@ -1351,10 +1340,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 79.55,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "JACOMAR PINHAIS"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "JACOMAR GANCHINHO",
           "merchant_id": "72bc219d-78d6-4ba9-a8f3-766fd247f6ff",
           "gmv": 3743.62,
           "meta_gmv": 3786.32,
@@ -1370,10 +1359,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 40.37,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "JACOMAR GANCHINHO"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "SUPERMERCADO JACOMAR - UBERABA",
           "merchant_id": "027d2da9-a7d0-47ec-ab40-5f7d616561f1",
           "gmv": 0.0,
           "meta_gmv": 0.0,
@@ -1389,10 +1378,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 0.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "SUPERMERCADO JACOMAR - UBERABA"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "JACOMAR CAMPO DE SANTANA -",
           "merchant_id": "8faedc3c-98aa-49d3-b204-40a3c9cfa434",
           "gmv": 0.0,
           "meta_gmv": 0.0,
@@ -1408,10 +1397,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 0.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "JACOMAR CAMPO DE SANTANA -"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "SUPERMERCADO JACOMAR - GUATUPE",
           "merchant_id": "743f7510-b87d-476e-9a05-1c0568fbfed8",
           "gmv": 0.0,
           "meta_gmv": 0.0,
@@ -1427,10 +1416,10 @@
           "online_pct": 0.0,
           "gmv_rupt": 0.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "SUPERMERCADO JACOMAR - GUATUPE"
+          "nsu_pct": 3.75
         },
         {
+          "nome": "JACO - SMART MARKET",
           "merchant_id": "2b51117e-4b79-4f33-8a59-0843b7b0910f",
           "gmv": 0.0,
           "meta_gmv": 0.0,
@@ -1446,8 +1435,7 @@
           "online_pct": 0.0,
           "gmv_rupt": 0.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 3.75,
-          "loja": "JACO - SMART MARKET"
+          "nsu_pct": 3.75
         }
       ],
       "D-7": [],

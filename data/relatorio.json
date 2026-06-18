@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "data_referencia": "17/06/2026",
-  "data_atualizacao": "18/06/2026 20:23",
+  "data_atualizacao": "18/06/2026 20:52",
   "grupos": {
     "NAGUMO": {
       "D-1": {
@@ -32,11 +32,11 @@
         "ruptura_pct": 22.46,
         "er_pct": 8.07,
         "nps": 78.83,
-        "sla_pct": 0.0,
+        "sla_pct": 77.35,
         "online_pct": 13.39,
         "gmv_rupt": 8547.19,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 9.08
       },
       "D-15": {
         "gmv": 268553.6,
@@ -49,11 +49,11 @@
         "ruptura_pct": 23.28,
         "er_pct": 8.43,
         "nps": 74.33,
-        "sla_pct": 0.0,
+        "sla_pct": 77.35,
         "online_pct": 13.15,
         "gmv_rupt": 9569.38,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 9.08
       },
       "D-21": {
         "gmv": 238438.64,
@@ -66,11 +66,11 @@
         "ruptura_pct": 23.25,
         "er_pct": 6.9,
         "nps": 74.1,
-        "sla_pct": 0.0,
+        "sla_pct": 77.35,
         "online_pct": 12.9,
         "gmv_rupt": 7158.95,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 9.08
       },
       "MTD": {
         "gmv": 4837375.45,
@@ -83,28 +83,11 @@
         "ruptura_pct": 22.97,
         "er_pct": 8.74,
         "nps": 76.43,
-        "sla_pct": 0.0,
+        "sla_pct": 77.35,
         "online_pct": 12.67,
         "gmv_rupt": 169738.14,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
-      },
-      "CONSOLIDADO": {
-        "gmv": 4837375.45,
-        "meta_gmv": 3602404.99,
-        "ating_pct": 134.28,
-        "pedidos": 36005,
-        "aov": 134.35,
-        "cap_fat": 49.84,
-        "cancel_pct": 7.1,
-        "ruptura_pct": 22.97,
-        "er_pct": 8.74,
-        "nps": 76.43,
-        "sla_pct": 0.0,
-        "online_pct": 12.67,
-        "gmv_rupt": 169738.14,
-        "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 9.08
       }
     },
     "FESTVAL": {
@@ -136,11 +119,11 @@
         "ruptura_pct": 36.56,
         "er_pct": 6.89,
         "nps": 71.43,
-        "sla_pct": 0.0,
+        "sla_pct": 66.8,
         "online_pct": 10.965,
         "gmv_rupt": 4969.2,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 6.52
       },
       "D-15": {
         "gmv": 78281.08,
@@ -153,11 +136,11 @@
         "ruptura_pct": 35.88,
         "er_pct": 6.93,
         "nps": 81.71,
-        "sla_pct": 0.0,
+        "sla_pct": 66.8,
         "online_pct": 10.84,
         "gmv_rupt": 3943.66,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 6.52
       },
       "D-21": {
         "gmv": 71276.39,
@@ -170,11 +153,11 @@
         "ruptura_pct": 38.15,
         "er_pct": 8.5,
         "nps": 70.83,
-        "sla_pct": 0.0,
+        "sla_pct": 66.8,
         "online_pct": 11.115,
         "gmv_rupt": 4278.71,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 6.52
       },
       "MTD": {
         "gmv": 1305663.62,
@@ -187,28 +170,11 @@
         "ruptura_pct": 35.18,
         "er_pct": 8.57,
         "nps": 76.25,
-        "sla_pct": 0.0,
+        "sla_pct": 66.8,
         "online_pct": 10.21,
         "gmv_rupt": 76488.82,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
-      },
-      "CONSOLIDADO": {
-        "gmv": 1305663.62,
-        "meta_gmv": 1211109.84,
-        "ating_pct": 107.81,
-        "pedidos": 8076,
-        "aov": 161.67,
-        "cap_fat": 83.22,
-        "cancel_pct": 4.24,
-        "ruptura_pct": 35.18,
-        "er_pct": 8.57,
-        "nps": 76.25,
-        "sla_pct": 0.0,
-        "online_pct": 10.21,
-        "gmv_rupt": 76488.82,
-        "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 6.52
       }
     },
     "JACOMAR": {
@@ -240,11 +206,11 @@
         "ruptura_pct": 23.62,
         "er_pct": 12.4,
         "nps": 82.52,
-        "sla_pct": 0.0,
+        "sla_pct": 87.0,
         "online_pct": 11.68,
         "gmv_rupt": 1132.72,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 3.75
       },
       "D-15": {
         "gmv": 47844.05,
@@ -257,11 +223,11 @@
         "ruptura_pct": 27.95,
         "er_pct": 10.46,
         "nps": 76.54,
-        "sla_pct": 0.0,
+        "sla_pct": 87.0,
         "online_pct": 12.27,
         "gmv_rupt": 1440.15,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 3.75
       },
       "D-21": {
         "gmv": 36812.6,
@@ -274,11 +240,11 @@
         "ruptura_pct": 26.44,
         "er_pct": 13.47,
         "nps": 76.71,
-        "sla_pct": 0.0,
+        "sla_pct": 87.0,
         "online_pct": 12.25,
         "gmv_rupt": 1204.94,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 3.75
       },
       "MTD": {
         "gmv": 841307.87,
@@ -291,28 +257,11 @@
         "ruptura_pct": 28.1,
         "er_pct": 10.07,
         "nps": 82.69,
-        "sla_pct": 0.0,
+        "sla_pct": 87.0,
         "online_pct": 10.62,
         "gmv_rupt": 27395.69,
         "gmv_recup": 0.0,
-        "nsu_pct": 0.0
-      },
-      "CONSOLIDADO": {
-        "gmv": 841307.87,
-        "meta_gmv": 796484.32,
-        "ating_pct": 105.63,
-        "pedidos": 6762,
-        "aov": 124.42,
-        "cap_fat": 88.24,
-        "cancel_pct": 4.56,
-        "ruptura_pct": 28.1,
-        "er_pct": 10.07,
-        "nps": 82.69,
-        "sla_pct": 0.0,
-        "online_pct": 10.62,
-        "gmv_rupt": 27395.69,
-        "gmv_recup": 0.0,
-        "nsu_pct": 0.0
+        "nsu_pct": 3.75
       }
     }
   },
@@ -600,11 +549,11 @@
           "ruptura_pct": 20.13,
           "er_pct": 9.82,
           "nps": 87.5,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.82,
           "gmv_rupt": 559.54,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VILA DIVA",
@@ -619,11 +568,11 @@
           "ruptura_pct": 20.18,
           "er_pct": 9.45,
           "nps": 69.57,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.15,
           "gmv_rupt": 308.54,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - MOGI",
@@ -638,11 +587,11 @@
           "ruptura_pct": 15.15,
           "er_pct": 15.92,
           "nps": 78.26,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.63,
           "gmv_rupt": 230.49,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - CALMON VIANA",
@@ -657,11 +606,11 @@
           "ruptura_pct": 13.79,
           "er_pct": 3.84,
           "nps": 70.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.83,
           "gmv_rupt": 270.83,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PIRES DO RIO",
@@ -676,11 +625,11 @@
           "ruptura_pct": 30.93,
           "er_pct": 0.0,
           "nps": 69.23,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 587.82,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - JD CUMBICA",
@@ -695,11 +644,11 @@
           "ruptura_pct": 21.33,
           "er_pct": 6.85,
           "nps": 93.33,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 309.29,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PQ CONTINENTAL GRU",
@@ -714,11 +663,11 @@
           "ruptura_pct": 35.06,
           "er_pct": 10.92,
           "nps": 93.75,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.76,
           "gmv_rupt": 734.37,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ANEL VIARIO",
@@ -733,11 +682,11 @@
           "ruptura_pct": 27.27,
           "er_pct": 10.63,
           "nps": 50.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.99,
           "gmv_rupt": 356.54,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - S ANDRE CENTRO",
@@ -752,11 +701,11 @@
           "ruptura_pct": 26.23,
           "er_pct": 9.2,
           "nps": 66.67,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.64,
           "gmv_rupt": 346.96,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - MAUA",
@@ -771,11 +720,11 @@
           "ruptura_pct": 25.88,
           "er_pct": 8.67,
           "nps": 68.18,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 310.23,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - CAMILOPOLIS",
@@ -790,11 +739,11 @@
           "ruptura_pct": 34.25,
           "er_pct": 4.53,
           "nps": 85.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.14,
           "gmv_rupt": 579.78,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - SOLAR - STO ANDRE",
@@ -809,11 +758,11 @@
           "ruptura_pct": 27.27,
           "er_pct": 0.0,
           "nps": 83.33,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.02,
           "gmv_rupt": 314.4,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VILA MAZZA",
@@ -828,11 +777,11 @@
           "ruptura_pct": 3.9,
           "er_pct": 10.65,
           "nps": 69.57,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.96,
           "gmv_rupt": 51.78,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - BONSUCESSO",
@@ -847,11 +796,11 @@
           "ruptura_pct": 25.81,
           "er_pct": 16.04,
           "nps": 81.82,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.75,
           "gmv_rupt": 195.27,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - OSASCO",
@@ -866,11 +815,11 @@
           "ruptura_pct": 29.85,
           "er_pct": 19.48,
           "nps": 44.44,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.45,
           "gmv_rupt": 318.06,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VILA ZEFERINA",
@@ -885,11 +834,11 @@
           "ruptura_pct": 10.13,
           "er_pct": 18.24,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 99.38,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - SAO JOSE",
@@ -904,11 +853,11 @@
           "ruptura_pct": 30.91,
           "er_pct": 5.07,
           "nps": 75.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.94,
           "gmv_rupt": 353.16,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ITAQUA",
@@ -923,11 +872,11 @@
           "ruptura_pct": 23.64,
           "er_pct": 0.0,
           "nps": 70.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 160.02,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PQ PAULISTANO",
@@ -942,11 +891,11 @@
           "ruptura_pct": 21.15,
           "er_pct": 0.0,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 143.1,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VOLTA REDONDA",
@@ -961,11 +910,11 @@
           "ruptura_pct": 21.43,
           "er_pct": 0.0,
           "nps": 71.43,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.0,
           "gmv_rupt": 279.84,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PRAIA GRANDE",
@@ -980,11 +929,11 @@
           "ruptura_pct": 29.63,
           "er_pct": 4.87,
           "nps": 85.71,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.0,
           "gmv_rupt": 204.01,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - JD EDMUNDO",
@@ -999,11 +948,11 @@
           "ruptura_pct": 15.0,
           "er_pct": 7.29,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 113.14,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - TAUBATE",
@@ -1018,11 +967,11 @@
           "ruptura_pct": 11.32,
           "er_pct": 15.84,
           "nps": 85.71,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.93,
           "gmv_rupt": 79.72,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - DONA BENTA",
@@ -1037,11 +986,11 @@
           "ruptura_pct": 16.0,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 141.94,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - AIMORE",
@@ -1056,11 +1005,11 @@
           "ruptura_pct": 16.33,
           "er_pct": 13.04,
           "nps": 61.54,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 97.25,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ITAIM PAULISTA",
@@ -1075,11 +1024,11 @@
           "ruptura_pct": 12.24,
           "er_pct": 0.0,
           "nps": 69.23,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 15.0,
           "gmv_rupt": 127.46,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - CURUCA",
@@ -1094,11 +1043,11 @@
           "ruptura_pct": 33.87,
           "er_pct": 16.57,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 15.0,
           "gmv_rupt": 410.28,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - TIBURCIO 2",
@@ -1113,11 +1062,11 @@
           "ruptura_pct": 26.0,
           "er_pct": 10.36,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.85,
           "gmv_rupt": 182.34,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ATIBAIA",
@@ -1132,11 +1081,11 @@
           "ruptura_pct": 34.21,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.0,
           "gmv_rupt": 299.26,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ERMELINO MATARAZZO",
@@ -1151,11 +1100,11 @@
           "ruptura_pct": 29.41,
           "er_pct": 9.99,
           "nps": 70.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 8.95,
           "gmv_rupt": 141.2,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PRAIA GRANDE OCIAN",
@@ -1170,11 +1119,11 @@
           "ruptura_pct": 32.5,
           "er_pct": 9.96,
           "nps": 90.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 164.65,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - KEMEL",
@@ -1189,11 +1138,11 @@
           "ruptura_pct": 8.57,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 42.04,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - LORENA",
@@ -1208,11 +1157,11 @@
           "ruptura_pct": 12.0,
           "er_pct": 11.62,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 34.5,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         }
       ],
       "D-15": [
@@ -1229,11 +1178,11 @@
           "ruptura_pct": 21.43,
           "er_pct": 12.51,
           "nps": 75.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.25,
           "gmv_rupt": 385.52,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PIRES DO RIO",
@@ -1248,11 +1197,11 @@
           "ruptura_pct": 38.95,
           "er_pct": 0.0,
           "nps": 88.24,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 954.95,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - MOGI",
@@ -1267,11 +1216,11 @@
           "ruptura_pct": 23.53,
           "er_pct": 15.82,
           "nps": 75.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.52,
           "gmv_rupt": 447.07,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VILA DIVA",
@@ -1286,11 +1235,11 @@
           "ruptura_pct": 27.16,
           "er_pct": 15.76,
           "nps": 82.35,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.36,
           "gmv_rupt": 579.16,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VOLTA REDONDA",
@@ -1305,11 +1254,11 @@
           "ruptura_pct": 13.56,
           "er_pct": 0.0,
           "nps": 70.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.59,
           "gmv_rupt": 191.8,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - MAUA",
@@ -1324,11 +1273,11 @@
           "ruptura_pct": 22.35,
           "er_pct": 9.64,
           "nps": 77.27,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.57,
           "gmv_rupt": 383.66,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ANEL VIARIO",
@@ -1343,11 +1292,11 @@
           "ruptura_pct": 25.0,
           "er_pct": 9.49,
           "nps": 50.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.71,
           "gmv_rupt": 443.96,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PQ CONTINENTAL GRU",
@@ -1362,11 +1311,11 @@
           "ruptura_pct": 24.05,
           "er_pct": 12.88,
           "nps": 61.54,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.06,
           "gmv_rupt": 407.65,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - CAMILOPOLIS",
@@ -1381,11 +1330,11 @@
           "ruptura_pct": 28.79,
           "er_pct": 12.0,
           "nps": 88.24,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.74,
           "gmv_rupt": 784.68,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - DONA BENTA",
@@ -1400,11 +1349,11 @@
           "ruptura_pct": 24.14,
           "er_pct": 0.0,
           "nps": 50.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.81,
           "gmv_rupt": 327.58,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ATIBAIA",
@@ -1419,11 +1368,11 @@
           "ruptura_pct": 40.98,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.69,
           "gmv_rupt": 754.06,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - SOLAR - STO ANDRE",
@@ -1438,11 +1387,11 @@
           "ruptura_pct": 22.41,
           "er_pct": 0.0,
           "nps": 76.47,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.48,
           "gmv_rupt": 221.52,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VILA MAZZA",
@@ -1457,11 +1406,11 @@
           "ruptura_pct": 15.0,
           "er_pct": 25.62,
           "nps": 57.14,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.0,
           "gmv_rupt": 107.09,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - OSASCO",
@@ -1476,11 +1425,11 @@
           "ruptura_pct": 31.82,
           "er_pct": 13.74,
           "nps": 70.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.76,
           "gmv_rupt": 448.1,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - CURUCA",
@@ -1495,11 +1444,11 @@
           "ruptura_pct": 14.06,
           "er_pct": 8.64,
           "nps": 45.45,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.75,
           "gmv_rupt": 106.69,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - CALMON VIANA",
@@ -1514,11 +1463,11 @@
           "ruptura_pct": 13.79,
           "er_pct": 10.01,
           "nps": 87.5,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.7,
           "gmv_rupt": 80.67,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PRAIA GRANDE",
@@ -1533,11 +1482,11 @@
           "ruptura_pct": 35.85,
           "er_pct": 7.61,
           "nps": 61.54,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.44,
           "gmv_rupt": 343.42,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - JD CUMBICA",
@@ -1552,11 +1501,11 @@
           "ruptura_pct": 18.52,
           "er_pct": 5.95,
           "nps": 54.55,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 142.12,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - BONSUCESSO",
@@ -1571,11 +1520,11 @@
           "ruptura_pct": 37.04,
           "er_pct": 9.17,
           "nps": 77.78,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.75,
           "gmv_rupt": 558.32,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PQ PAULISTANO",
@@ -1590,11 +1539,11 @@
           "ruptura_pct": 21.57,
           "er_pct": 0.0,
           "nps": 83.33,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 172.04,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ITAQUA",
@@ -1609,11 +1558,11 @@
           "ruptura_pct": 28.07,
           "er_pct": 0.0,
           "nps": 61.11,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.63,
           "gmv_rupt": 330.49,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ITAIM PAULISTA",
@@ -1628,11 +1577,11 @@
           "ruptura_pct": 26.09,
           "er_pct": 0.0,
           "nps": 77.78,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 15.0,
           "gmv_rupt": 242.93,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VILA ZEFERINA",
@@ -1647,11 +1596,11 @@
           "ruptura_pct": 8.93,
           "er_pct": 9.42,
           "nps": 75.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 57.59,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - S ANDRE CENTRO",
@@ -1666,11 +1615,11 @@
           "ruptura_pct": 18.18,
           "er_pct": 12.1,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.42,
           "gmv_rupt": 180.2,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - LORENA",
@@ -1685,11 +1634,11 @@
           "ruptura_pct": 10.81,
           "er_pct": 7.62,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.86,
           "gmv_rupt": 46.59,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ERMELINO MATARAZZO",
@@ -1704,11 +1653,11 @@
           "ruptura_pct": 20.45,
           "er_pct": 5.47,
           "nps": 75.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 10.98,
           "gmv_rupt": 115.74,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - SAO JOSE",
@@ -1723,11 +1672,11 @@
           "ruptura_pct": 15.0,
           "er_pct": 7.78,
           "nps": 66.67,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.59,
           "gmv_rupt": 161.98,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - TAUBATE",
@@ -1742,11 +1691,11 @@
           "ruptura_pct": 14.71,
           "er_pct": 14.16,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 78.33,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - TIBURCIO 2",
@@ -1761,11 +1710,11 @@
           "ruptura_pct": 20.51,
           "er_pct": 6.61,
           "nps": 77.78,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.75,
           "gmv_rupt": 93.72,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - JD EDMUNDO",
@@ -1780,11 +1729,11 @@
           "ruptura_pct": 20.59,
           "er_pct": 21.38,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 136.25,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PRAIA GRANDE OCIAN",
@@ -1799,11 +1748,11 @@
           "ruptura_pct": 21.62,
           "er_pct": 18.14,
           "nps": 75.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.86,
           "gmv_rupt": 133.23,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - KEMEL",
@@ -1818,11 +1767,11 @@
           "ruptura_pct": 24.14,
           "er_pct": 0.0,
           "nps": 85.71,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.82,
           "gmv_rupt": 103.26,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - AIMORE",
@@ -1837,11 +1786,30 @@
           "ruptura_pct": 9.09,
           "er_pct": 10.07,
           "nps": 71.43,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 49.01,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
+        },
+        {
+          "nome": "MIXTER NAGUMO - ELENCO",
+          "merchant_id": "333262c2-576f-4422-9383-60f43eb140ee",
+          "gmv": 200.16,
+          "meta_gmv": 6.37,
+          "ating_pct": 3142.23,
+          "pedidos": 2,
+          "aov": 100.08,
+          "cap_fat": 0.0,
+          "cancel_pct": 77.78,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 9.08
         }
       ],
       "D-21": [
@@ -1858,11 +1826,11 @@
           "ruptura_pct": 25.64,
           "er_pct": 7.13,
           "nps": 82.76,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.25,
           "gmv_rupt": 370.58,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PIRES DO RIO",
@@ -1877,11 +1845,11 @@
           "ruptura_pct": 36.08,
           "er_pct": 0.0,
           "nps": 61.9,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.5,
           "gmv_rupt": 661.11,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VILA DIVA",
@@ -1896,11 +1864,11 @@
           "ruptura_pct": 16.49,
           "er_pct": 20.73,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.0,
           "gmv_rupt": 563.77,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VOLTA REDONDA",
@@ -1915,11 +1883,11 @@
           "ruptura_pct": 23.33,
           "er_pct": 0.0,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.07,
           "gmv_rupt": 244.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VILA MAZZA",
@@ -1934,11 +1902,11 @@
           "ruptura_pct": 13.79,
           "er_pct": 22.18,
           "nps": 72.22,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.0,
           "gmv_rupt": 85.9,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - MAUA",
@@ -1953,11 +1921,11 @@
           "ruptura_pct": 21.54,
           "er_pct": 9.5,
           "nps": 70.59,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 8.67,
           "gmv_rupt": 193.66,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - OSASCO",
@@ -1972,11 +1940,11 @@
           "ruptura_pct": 33.33,
           "er_pct": 0.0,
           "nps": 40.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.38,
           "gmv_rupt": 371.84,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ANEL VIARIO",
@@ -1991,11 +1959,11 @@
           "ruptura_pct": 21.05,
           "er_pct": 8.5,
           "nps": 87.5,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.3,
           "gmv_rupt": 400.44,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PQ CONTINENTAL GRU",
@@ -2010,11 +1978,11 @@
           "ruptura_pct": 24.66,
           "er_pct": 7.77,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.86,
           "gmv_rupt": 339.02,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - MOGI",
@@ -2029,11 +1997,11 @@
           "ruptura_pct": 19.35,
           "er_pct": 11.84,
           "nps": 62.5,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 9.71,
           "gmv_rupt": 167.94,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ATIBAIA",
@@ -2048,11 +2016,11 @@
           "ruptura_pct": 35.19,
           "er_pct": 0.0,
           "nps": 87.5,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.53,
           "gmv_rupt": 235.32,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - CALMON VIANA",
@@ -2067,11 +2035,11 @@
           "ruptura_pct": 13.79,
           "er_pct": 9.88,
           "nps": 84.62,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.25,
           "gmv_rupt": 68.61,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PRAIA GRANDE",
@@ -2086,11 +2054,11 @@
           "ruptura_pct": 30.61,
           "er_pct": 4.06,
           "nps": 73.33,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 251.49,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - SAO JOSE",
@@ -2105,11 +2073,11 @@
           "ruptura_pct": 16.98,
           "er_pct": 11.37,
           "nps": 66.67,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.59,
           "gmv_rupt": 194.72,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - SOLAR - STO ANDRE",
@@ -2124,11 +2092,11 @@
           "ruptura_pct": 39.58,
           "er_pct": 0.0,
           "nps": 60.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.75,
           "gmv_rupt": 325.51,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - CURUCA",
@@ -2143,11 +2111,11 @@
           "ruptura_pct": 14.75,
           "er_pct": 11.34,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.74,
           "gmv_rupt": 85.49,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - S ANDRE CENTRO",
@@ -2162,11 +2130,11 @@
           "ruptura_pct": 17.95,
           "er_pct": 0.0,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 11.96,
           "gmv_rupt": 130.45,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - JD CUMBICA",
@@ -2181,11 +2149,11 @@
           "ruptura_pct": 24.53,
           "er_pct": 0.0,
           "nps": 70.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.5,
           "gmv_rupt": 235.49,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - CAMILOPOLIS",
@@ -2200,30 +2168,11 @@
           "ruptura_pct": 13.64,
           "er_pct": 0.0,
           "nps": 92.86,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.0,
           "gmv_rupt": 176.5,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
-        },
-        {
-          "nome": "NAGUMO EXPRESS - DONA BENTA",
-          "merchant_id": "6631c029-0dd0-4a6c-b9c1-1bef5cfd68f2",
-          "gmv": 6291.19,
-          "meta_gmv": 6129.31,
-          "ating_pct": 102.64,
-          "pedidos": 43,
-          "aov": 146.31,
-          "cap_fat": 76.74,
-          "cancel_pct": 6.52,
-          "ruptura_pct": 23.26,
-          "er_pct": 0.0,
-          "nps": 72.73,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
-          "gmv_rupt": 179.83,
-          "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - BONSUCESSO",
@@ -2238,11 +2187,30 @@
           "ruptura_pct": 34.62,
           "er_pct": 4.05,
           "nps": 58.33,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.88,
           "gmv_rupt": 370.02,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
+        },
+        {
+          "nome": "NAGUMO EXPRESS - DONA BENTA",
+          "merchant_id": "6631c029-0dd0-4a6c-b9c1-1bef5cfd68f2",
+          "gmv": 6291.19,
+          "meta_gmv": 6129.31,
+          "ating_pct": 102.64,
+          "pedidos": 43,
+          "aov": 146.31,
+          "cap_fat": 76.74,
+          "cancel_pct": 6.52,
+          "ruptura_pct": 23.26,
+          "er_pct": 0.0,
+          "nps": 72.73,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
+          "gmv_rupt": 179.83,
+          "gmv_recup": 0.0,
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - TIBURCIO 2",
@@ -2257,11 +2225,11 @@
           "ruptura_pct": 30.0,
           "er_pct": 9.66,
           "nps": 20.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 174.11,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PQ PAULISTANO",
@@ -2276,11 +2244,11 @@
           "ruptura_pct": 20.0,
           "er_pct": 0.0,
           "nps": 77.78,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.25,
           "gmv_rupt": 120.53,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - VILA ZEFERINA",
@@ -2295,11 +2263,11 @@
           "ruptura_pct": 12.07,
           "er_pct": 17.86,
           "nps": 85.71,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 84.87,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ITAIM PAULISTA",
@@ -2314,11 +2282,11 @@
           "ruptura_pct": 30.95,
           "er_pct": 0.0,
           "nps": 75.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 15.0,
           "gmv_rupt": 147.44,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ITAQUA",
@@ -2333,11 +2301,11 @@
           "ruptura_pct": 24.32,
           "er_pct": 0.0,
           "nps": 87.5,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 324.97,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - AIMORE",
@@ -2352,11 +2320,11 @@
           "ruptura_pct": 7.69,
           "er_pct": 12.67,
           "nps": 87.5,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 12.85,
           "gmv_rupt": 25.67,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - TAUBATE",
@@ -2371,11 +2339,11 @@
           "ruptura_pct": 10.0,
           "er_pct": 9.3,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 54.55,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - PRAIA GRANDE OCIAN",
@@ -2390,11 +2358,11 @@
           "ruptura_pct": 15.38,
           "er_pct": 18.94,
           "nps": 70.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 32.09,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - JD EDMUNDO",
@@ -2409,11 +2377,30 @@
           "ruptura_pct": 17.39,
           "er_pct": 2.89,
           "nps": 77.78,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 104.25,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
+        },
+        {
+          "nome": "NAGUMO EXPRESS - ATIBAIA",
+          "merchant_id": "3c520e7f-a4a7-4d5e-8695-901002c20b0b",
+          "gmv": 8328.77,
+          "meta_gmv": 7776.15,
+          "ating_pct": 107.11,
+          "pedidos": 54,
+          "aov": 154.24,
+          "cap_fat": 48.15,
+          "cancel_pct": 6.9,
+          "ruptura_pct": 35.19,
+          "er_pct": 0.0,
+          "nps": 87.5,
+          "sla_pct": 77.35,
+          "online_pct": 11.53,
+          "gmv_rupt": 235.32,
+          "gmv_recup": 0.0,
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - KEMEL",
@@ -2428,11 +2415,11 @@
           "ruptura_pct": 21.88,
           "er_pct": 0.0,
           "nps": 40.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 14.0,
           "gmv_rupt": 95.52,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - ERMELINO MATARAZZO",
@@ -2447,11 +2434,11 @@
           "ruptura_pct": 41.94,
           "er_pct": 10.5,
           "nps": 61.54,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 9.0,
           "gmv_rupt": 285.31,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         },
         {
           "nome": "NAGUMO EXPRESS - LORENA",
@@ -2466,11 +2453,11 @@
           "ruptura_pct": 20.0,
           "er_pct": 14.49,
           "nps": 85.71,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 77.35,
+          "online_pct": 13.58,
           "gmv_rupt": 57.95,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 9.08
         }
       ],
       "MTD": []
@@ -2682,11 +2669,11 @@
           "ruptura_pct": 36.36,
           "er_pct": 0.0,
           "nps": 48.57,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 6.8,
           "gmv_rupt": 1602.0,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - PARQUE TINGUI",
@@ -2701,11 +2688,11 @@
           "ruptura_pct": 47.89,
           "er_pct": 16.22,
           "nps": 85.71,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 11.84,
           "gmv_rupt": 788.61,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - SAO LOURENCO",
@@ -2720,11 +2707,11 @@
           "ruptura_pct": 27.94,
           "er_pct": 15.88,
           "nps": 90.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 558.63,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - SAO JOSEDOSPINHAIS",
@@ -2739,11 +2726,11 @@
           "ruptura_pct": 32.61,
           "er_pct": 9.47,
           "nps": 90.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 494.75,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL CASCAVEL - CENTRO",
@@ -2758,11 +2745,11 @@
           "ruptura_pct": 42.22,
           "er_pct": 0.0,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 620.73,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - AV BRASIL",
@@ -2777,11 +2764,11 @@
           "ruptura_pct": 41.18,
           "er_pct": 0.0,
           "nps": 85.71,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 331.96,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - TANCREDO NEVES",
@@ -2796,11 +2783,11 @@
           "ruptura_pct": 47.37,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 7.01,
           "gmv_rupt": 299.28,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - PINHAIS",
@@ -2815,11 +2802,11 @@
           "ruptura_pct": 23.53,
           "er_pct": 27.73,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 13.0,
           "gmv_rupt": 190.12,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - FACULDADE",
@@ -2834,11 +2821,11 @@
           "ruptura_pct": 28.57,
           "er_pct": 0.0,
           "nps": 60.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 73.29,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL CARLOS GOMES",
@@ -2853,11 +2840,87 @@
           "ruptura_pct": 35.71,
           "er_pct": 0.0,
           "nps": 75.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 11.0,
           "gmv_rupt": 9.83,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - TORRES",
+          "merchant_id": "268daccf-5b65-4270-a577-e38334dd0ff2",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - SANTA FELICIDADE",
+          "merchant_id": "eb96a90f-637f-489a-91ae-2e3703ca1b2e",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - CARLOS DE CARVALHO",
+          "merchant_id": "30112328-ace0-4427-bcba-5cba9bf0a122",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - BATEL",
+          "merchant_id": "0c5ceabe-01fd-4a8c-981b-db4765f7b573",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
         }
       ],
       "D-15": [
@@ -2874,11 +2937,11 @@
           "ruptura_pct": 39.23,
           "er_pct": 0.0,
           "nps": 82.76,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 8.75,
           "gmv_rupt": 1671.24,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - SAO LOURENCO",
@@ -2893,11 +2956,11 @@
           "ruptura_pct": 29.21,
           "er_pct": 16.95,
           "nps": 88.24,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 11.79,
           "gmv_rupt": 508.38,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - PARQUE TINGUI",
@@ -2912,11 +2975,11 @@
           "ruptura_pct": 36.36,
           "er_pct": 13.47,
           "nps": 87.5,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 373.31,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - SAO JOSEDOSPINHAIS",
@@ -2931,11 +2994,11 @@
           "ruptura_pct": 23.81,
           "er_pct": 12.49,
           "nps": 70.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 288.26,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL CASCAVEL - CENTRO",
@@ -2950,11 +3013,11 @@
           "ruptura_pct": 51.85,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 8.68,
           "gmv_rupt": 452.04,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - PINHAIS",
@@ -2969,11 +3032,11 @@
           "ruptura_pct": 21.62,
           "er_pct": 20.37,
           "nps": 77.78,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 13.0,
           "gmv_rupt": 57.08,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - AV BRASIL",
@@ -2988,11 +3051,11 @@
           "ruptura_pct": 28.57,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 73.59,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - TANCREDO NEVES",
@@ -3007,11 +3070,11 @@
           "ruptura_pct": 70.0,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 7.16,
           "gmv_rupt": 366.77,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - FACULDADE",
@@ -3026,11 +3089,11 @@
           "ruptura_pct": 70.0,
           "er_pct": 0.0,
           "nps": 0.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 125.36,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL CARLOS GOMES",
@@ -3045,11 +3108,87 @@
           "ruptura_pct": 33.33,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 11.0,
           "gmv_rupt": 27.63,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - TORRES",
+          "merchant_id": "268daccf-5b65-4270-a577-e38334dd0ff2",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - SANTA FELICIDADE",
+          "merchant_id": "eb96a90f-637f-489a-91ae-2e3703ca1b2e",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - BATEL",
+          "merchant_id": "0c5ceabe-01fd-4a8c-981b-db4765f7b573",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - CARLOS DE CARVALHO",
+          "merchant_id": "30112328-ace0-4427-bcba-5cba9bf0a122",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
         }
       ],
       "D-21": [
@@ -3066,11 +3205,11 @@
           "ruptura_pct": 45.45,
           "er_pct": 0.0,
           "nps": 66.67,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 10.1,
           "gmv_rupt": 1314.55,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - SAO LOURENCO",
@@ -3085,11 +3224,11 @@
           "ruptura_pct": 18.67,
           "er_pct": 24.96,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 283.89,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL CASCAVEL - CENTRO",
@@ -3104,11 +3243,11 @@
           "ruptura_pct": 67.57,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 1157.74,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - PARQUE TINGUI",
@@ -3123,11 +3262,11 @@
           "ruptura_pct": 44.44,
           "er_pct": 18.71,
           "nps": 66.67,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 10.0,
           "gmv_rupt": 592.04,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - AV BRASIL",
@@ -3142,11 +3281,11 @@
           "ruptura_pct": 34.78,
           "er_pct": 0.0,
           "nps": 75.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 11.5,
           "gmv_rupt": 290.74,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - SAO JOSEDOSPINHAIS",
@@ -3161,11 +3300,11 @@
           "ruptura_pct": 23.4,
           "er_pct": 18.13,
           "nps": 55.56,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 11.96,
           "gmv_rupt": 267.49,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - TANCREDO NEVES",
@@ -3180,11 +3319,11 @@
           "ruptura_pct": 46.67,
           "er_pct": 0.0,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 7.59,
           "gmv_rupt": 211.5,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - PINHAIS",
@@ -3199,11 +3338,11 @@
           "ruptura_pct": 20.0,
           "er_pct": 21.86,
           "nps": 0.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 13.0,
           "gmv_rupt": 79.85,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL - FACULDADE",
@@ -3218,11 +3357,11 @@
           "ruptura_pct": 54.55,
           "er_pct": 0.0,
           "nps": 50.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 12.0,
           "gmv_rupt": 70.67,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
         },
         {
           "nome": "FESTVAL CARLOS GOMES",
@@ -3237,11 +3376,87 @@
           "ruptura_pct": 25.0,
           "er_pct": 0.0,
           "nps": 0.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 11.0,
           "gmv_rupt": 10.24,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - SANTA FELICIDADE",
+          "merchant_id": "eb96a90f-637f-489a-91ae-2e3703ca1b2e",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - TORRES",
+          "merchant_id": "268daccf-5b65-4270-a577-e38334dd0ff2",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - CARLOS DE CARVALHO",
+          "merchant_id": "30112328-ace0-4427-bcba-5cba9bf0a122",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
+        },
+        {
+          "nome": "FESTVAL - BATEL",
+          "merchant_id": "0c5ceabe-01fd-4a8c-981b-db4765f7b573",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 66.8,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 6.52
         }
       ],
       "MTD": []
@@ -3396,11 +3611,11 @@
           "ruptura_pct": 16.3,
           "er_pct": 7.45,
           "nps": 96.3,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 8.5,
           "gmv_rupt": 198.24,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "SUPERMERCADO JACOMAR - CAPAO RASO",
@@ -3415,11 +3630,11 @@
           "ruptura_pct": 28.74,
           "er_pct": 19.25,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 11.75,
           "gmv_rupt": 194.57,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR COLONIA RIO GRANDE -",
@@ -3434,11 +3649,11 @@
           "ruptura_pct": 16.67,
           "er_pct": 11.34,
           "nps": 90.91,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.5,
           "gmv_rupt": 108.16,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR BR277",
@@ -3453,11 +3668,11 @@
           "ruptura_pct": 42.55,
           "er_pct": 7.21,
           "nps": 64.29,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.0,
           "gmv_rupt": 434.02,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "SUPERMERCADO JACOMAR - FAZENDA RIO GRANDE",
@@ -3472,11 +3687,11 @@
           "ruptura_pct": 13.73,
           "er_pct": 12.88,
           "nps": 50.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.0,
           "gmv_rupt": 47.39,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR PINHAIS",
@@ -3491,11 +3706,11 @@
           "ruptura_pct": 35.0,
           "er_pct": 17.92,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.75,
           "gmv_rupt": 126.6,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR GANCHINHO",
@@ -3510,11 +3725,87 @@
           "ruptura_pct": 14.81,
           "er_pct": 13.62,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.25,
           "gmv_rupt": 23.74,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "JACOMAR CAMPO DE SANTANA -",
+          "merchant_id": "8faedc3c-98aa-49d3-b204-40a3c9cfa434",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "JACO - SMART MARKET",
+          "merchant_id": "2b51117e-4b79-4f33-8a59-0843b7b0910f",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "SUPERMERCADO JACOMAR - UBERABA",
+          "merchant_id": "027d2da9-a7d0-47ec-ab40-5f7d616561f1",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "SUPERMERCADO JACOMAR - GUATUPE",
+          "merchant_id": "743f7510-b87d-476e-9a05-1c0568fbfed8",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
         }
       ],
       "D-15": [
@@ -3531,11 +3822,11 @@
           "ruptura_pct": 28.05,
           "er_pct": 11.85,
           "nps": 90.91,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.25,
           "gmv_rupt": 309.9,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "SUPERMERCADO JACOMAR - CAPAO RASO",
@@ -3550,11 +3841,11 @@
           "ruptura_pct": 30.68,
           "er_pct": 19.47,
           "nps": 50.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 11.66,
           "gmv_rupt": 398.98,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR COLONIA RIO GRANDE -",
@@ -3569,11 +3860,11 @@
           "ruptura_pct": 23.53,
           "er_pct": 3.79,
           "nps": 37.5,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.5,
           "gmv_rupt": 94.29,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR PINHAIS",
@@ -3588,11 +3879,11 @@
           "ruptura_pct": 36.36,
           "er_pct": 2.62,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 13.5,
           "gmv_rupt": 169.02,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "SUPERMERCADO JACOMAR - FAZENDA RIO GRANDE",
@@ -3607,11 +3898,11 @@
           "ruptura_pct": 20.37,
           "er_pct": 7.33,
           "nps": 91.67,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.0,
           "gmv_rupt": 137.22,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR BR277",
@@ -3626,11 +3917,11 @@
           "ruptura_pct": 33.33,
           "er_pct": 6.92,
           "nps": 88.89,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.0,
           "gmv_rupt": 237.92,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR GANCHINHO",
@@ -3645,11 +3936,87 @@
           "ruptura_pct": 20.69,
           "er_pct": 15.8,
           "nps": 100.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.0,
           "gmv_rupt": 92.82,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "JACOMAR CAMPO DE SANTANA -",
+          "merchant_id": "8faedc3c-98aa-49d3-b204-40a3c9cfa434",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "JACO - SMART MARKET",
+          "merchant_id": "2b51117e-4b79-4f33-8a59-0843b7b0910f",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "SUPERMERCADO JACOMAR - UBERABA",
+          "merchant_id": "027d2da9-a7d0-47ec-ab40-5f7d616561f1",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "SUPERMERCADO JACOMAR - GUATUPE",
+          "merchant_id": "743f7510-b87d-476e-9a05-1c0568fbfed8",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
         }
       ],
       "D-21": [
@@ -3666,11 +4033,11 @@
           "ruptura_pct": 27.5,
           "er_pct": 17.19,
           "nps": 90.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.25,
           "gmv_rupt": 223.67,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "SUPERMERCADO JACOMAR - CAPAO RASO",
@@ -3685,11 +4052,11 @@
           "ruptura_pct": 27.4,
           "er_pct": 15.68,
           "nps": 91.67,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.0,
           "gmv_rupt": 171.15,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "SUPERMERCADO JACOMAR - FAZENDA RIO GRANDE",
@@ -3704,11 +4071,11 @@
           "ruptura_pct": 12.0,
           "er_pct": 11.44,
           "nps": 63.64,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.0,
           "gmv_rupt": 137.22,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR COLONIA RIO GRANDE -",
@@ -3723,11 +4090,11 @@
           "ruptura_pct": 34.21,
           "er_pct": 4.77,
           "nps": 60.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.5,
           "gmv_rupt": 298.89,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR BR277",
@@ -3742,11 +4109,11 @@
           "ruptura_pct": 28.21,
           "er_pct": 3.62,
           "nps": 77.78,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.0,
           "gmv_rupt": 176.14,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR PINHAIS",
@@ -3761,11 +4128,11 @@
           "ruptura_pct": 30.3,
           "er_pct": 21.95,
           "nps": 80.0,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.75,
           "gmv_rupt": 129.27,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
         },
         {
           "nome": "JACOMAR GANCHINHO",
@@ -3780,11 +4147,87 @@
           "ruptura_pct": 31.25,
           "er_pct": 16.55,
           "nps": 33.33,
-          "sla_pct": 0.0,
-          "online_pct": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 12.25,
           "gmv_rupt": 68.6,
           "gmv_recup": 0.0,
-          "nsu_pct": 0.0
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "JACO - SMART MARKET",
+          "merchant_id": "2b51117e-4b79-4f33-8a59-0843b7b0910f",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "JACOMAR CAMPO DE SANTANA -",
+          "merchant_id": "8faedc3c-98aa-49d3-b204-40a3c9cfa434",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "SUPERMERCADO JACOMAR - GUATUPE",
+          "merchant_id": "743f7510-b87d-476e-9a05-1c0568fbfed8",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
+        },
+        {
+          "nome": "SUPERMERCADO JACOMAR - UBERABA",
+          "merchant_id": "027d2da9-a7d0-47ec-ab40-5f7d616561f1",
+          "gmv": 0.0,
+          "meta_gmv": 0.0,
+          "ating_pct": 0.0,
+          "pedidos": 0,
+          "aov": 0.0,
+          "cap_fat": 0.0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "er_pct": 0.0,
+          "nps": 0.0,
+          "sla_pct": 87.0,
+          "online_pct": 0.0,
+          "gmv_rupt": 0.0,
+          "gmv_recup": 0.0,
+          "nsu_pct": 3.75
         }
       ],
       "MTD": []

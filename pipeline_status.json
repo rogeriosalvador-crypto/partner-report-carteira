@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-07-06T10:21:02",
+  "data_referencia_alvo": "05/07/2026",
+  "status": "FALHA",
+  "motivo": "Databricks inacessível via Generator — domínio não autorizado no proxy (403 Forbidden)",
+  "causa_raiz": "O tool Ifood-Databricks-SqlWarehouse_execute_sql_read_only não está disponível no contexto Generator. Requer execução via agente conversacional (Planner) com acesso MCP.",
+  "relatorio_json_atual": {
+    "data_referencia": "02/07/2026",
+    "data_atualizacao": "03/07/2026 19:12",
+    "status": "3 dias desatualizado"
+  },
+  "acao_recomendada": "Executar pipeline manualmente via assistente iFood conversacional com acesso MCP Databricks"
+}
